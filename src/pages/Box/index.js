@@ -60,7 +60,7 @@ export default class Box extends Component {
           file =>(
             <li key={file._id}>
             <a className="fileInfo" href={file.url} target="_blank">
-              <MdInsertDriveFile size={24} color="#7159c1"/>
+              <MdInsertDriveFile size={24} color="#f3095f"/>
               <strong>{file.title}</strong>
             </a>
             <span> há {distanceInWords(file.createdAt, new Date(),
